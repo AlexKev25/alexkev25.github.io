@@ -1,0 +1,58 @@
+.navbar {
+  background-color: #00091a;
+}
+
+.jumbotron {
+  padding-top: 10rem;
+  background-color: #7fffd4;
+}
+
+#about {
+  background-color: #00091a;
+  color: white;
+  margin-bottom: -15rem;
+}
+
+#gallery {
+  background-color: #7fffd4;
+  margin-bottom: -15rem;
+}
+
+#contact {
+  background-color: #00091a;
+  color: white;
+  padding-bottom: 1rem;
+}
+
+footer {
+  background-color: #00091a;
+  color: white;
+}
+
+section {
+  padding-top: 8rem;
+}
+
+@media only screen and (max-width: 992px) {
+  #about {
+    background-color: #00091a;
+    color: white;
+    padding-bottom: 8rem;
+  }
+  #gallery {
+    background-color: #7fffd4;
+    padding-bottom: 8rem;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  #about {
+    background-color: #00091a;
+    color: white;
+    padding-bottom: 9rem;
+  }
+  #gallery {
+    background-color: #7fffd4;
+    padding-bottom: 9rem;
+  }
+}
