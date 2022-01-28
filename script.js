@@ -56,3 +56,13 @@ window.onload = function () {
   css.innerHTML = ".typewrite > .wrap { border-right: 0.08em solid #000}";
   document.body.appendChild(css);
 };
+
+// modal
+document.addEventListener("click", function (e) {
+  if (e.target.classList.contains("gallery-item")) {
+    const src = e.target.getAttribute("src");
+    document.querySelector(".modal-img").src = src;
+    const myModal = new bootstrap.Modal(document.getElementById("gallery-modal"));
+    myModal.show();
+  }
+});

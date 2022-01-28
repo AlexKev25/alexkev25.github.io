@@ -32,6 +32,10 @@
   transform: scale(1.02);
 }
 
+#gallery-modal .modal-img {
+  width: 100%;
+}
+
 #contact {
   background-color: #00091a;
   color: white;
