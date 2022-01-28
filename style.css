@@ -18,6 +18,20 @@
   margin-bottom: -15rem;
 }
 
+#gallery .card {
+  max-width: 100%;
+  -webkit-filter: grayscale(80%);
+  filter: grayscale(80%);
+  transition: 0.5s;
+  cursor: pointer;
+}
+
+#gallery .card:hover {
+  -webkit-filter: grayscale(0%);
+  filter: grayscale(0%);
+  transform: scale(1.02);
+}
+
 #contact {
   background-color: #00091a;
   color: white;
